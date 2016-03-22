@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Registered:</strong>
+  <%= @money.registered %>
+</p>
+
+<p>
+  <strong>Income:</strong>
+  <%= @money.income %>
+</p>
+
+<p>
+  <strong>Outcome:</strong>
+  <%= @money.outcome %>
+</p>
+
+<p>
+  <strong>Total:</strong>
+  <%= @money.total %>
+</p>
+
+<%= link_to 'Edit', edit_money_path(@money) %> |
+<%= link_to 'Back', money_index_path %>

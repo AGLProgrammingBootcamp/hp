@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  registered: 2016-03-22
+  income: 1
+  outcome: 1
+  total: 1
+
+two:
+  registered: 2016-03-22
+  income: 1
+  outcome: 1
+  total: 1
